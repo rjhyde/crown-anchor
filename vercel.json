@@ -1,12 +1,3 @@
 {
-  "version": 2,
-  "buildCommand": "cd crown-anchor-beer-list && npm run build",
-  "devCommand": "cd crown-anchor-beer-list && npm run dev",
-  "installCommand": "cd crown-anchor-beer-list && npm install",
-  "outputDirectory": "crown-anchor-beer-list/.next",
-  "framework": "nextjs",
-  "regions": ["sfo1"],
-  "github": {
-    "silent": true
-  }
+  "rootDirectory": "crown-anchor-beer-list"
 } 

@@ -1,3 +1,5 @@
+"use client";
+
 import { Beer, BeerType } from "@/types/beer";
 import { BeerCard } from "./BeerCard";
 import { useState } from "react";

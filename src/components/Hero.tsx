@@ -1,29 +1,15 @@
 "use client";
 
-import Image from 'next/image';
-
 export const Hero = () => {
   return (
     <div className="relative overflow-hidden">
-      {/* Background image */}
+      {/* Background image with regular img tag */}
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full">
-          {/* Next.js Image component (might not work in some environments) */}
-          <Image
-            src="/images/bar-slide-2_11.jpg"
-            alt="Crown & Anchor Pub interior"
-            fill
-            priority
-            className="object-cover hidden sm:block"
-            sizes="100vw"
-            unoptimized
-          />
-          
-          {/* Fallback regular img tag */}
           <img
             src="/images/bar-slide-2_11.jpg"
-            alt="Crown & Anchor Pub interior"
-            className="object-cover w-full h-full block sm:hidden"
+            alt="Crown &amp; Anchor Pub interior"
+            className="object-cover w-full h-full"
           />
         </div>
         {/* Overlay to darken image and improve text readability */}

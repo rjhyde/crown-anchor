@@ -5,7 +5,6 @@ import { Hero } from "@/components/Hero";
 import { BeerList } from "@/components/BeerList";
 import { About } from "@/components/About";
 import { Location } from "@/components/Location";
-import { TestImage } from "@/components/TestImage";
 
 export default function Home() {
   return (
@@ -14,12 +13,6 @@ export default function Home() {
       
       <main>
         <Hero />
-        
-        {/* Test Image section */}
-        <div className="container mx-auto px-4 py-8">
-          <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200">Test Image</h2>
-          <TestImage />
-        </div>
         
         <section id="beer-list" className="py-16 bg-amber-50 dark:bg-gray-900">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">

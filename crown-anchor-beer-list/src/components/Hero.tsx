@@ -1,3 +1,5 @@
+"use client";
+
 export const Hero = () => {
   return (
     <div className="relative bg-amber-900 overflow-hidden">
@@ -5,11 +7,11 @@ export const Hero = () => {
       
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center min-h-[50vh]">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white text-center tracking-tight">
-          The Crown & Anchor Pub
+          The Crown &amp; Anchor Pub
         </h1>
         
         <p className="mt-6 text-xl md:text-2xl text-amber-100 text-center max-w-3xl">
-          Monterey's finest selection of craft beers and traditional pub atmosphere
+          Monterey&apos;s finest selection of craft beers and traditional pub atmosphere
         </p>
         
         <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
